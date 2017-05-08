@@ -42,4 +42,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="comp" value="$APPLICATION-&gt;IncludeComponent('bitrix:$END$', '', array(), false);" description="$APPLICATION-&gt;IncludeComponent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
