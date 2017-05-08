@@ -28,8 +28,9 @@ _(пример: ln -s /home/ildar/projects/phpstorm/ildarkhasanshin.xml /home/il
 
 ##### php
 `root = $_SERVER['DOCUMENT_ROOT']`
- <br>
+<br>
 `comp = $APPLICATION->IncludeComponent(..)` _cms 1c-bitrix_
+
 
 ## macros
 скоро..
