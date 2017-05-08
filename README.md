@@ -26,10 +26,10 @@ _(пример: ln -s /home/ildar/projects/phpstorm/ildarkhasanshin.xml /home/il
 <br>
 `jquery3 = <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
 
-
 ##### php
-`root = $_SERVER['DOCUMENT_ROOT']` 
-
+`root = $_SERVER['DOCUMENT_ROOT']`
+ <br>
+`comp = $APPLICATION->IncludeComponent(..)` _cms 1c-bitrix_
 
 ## macros
 скоро..
