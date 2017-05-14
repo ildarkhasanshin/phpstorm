@@ -36,7 +36,8 @@ _(пример: ln -s /home/ildar/projects/phpstorm/ildarkhasanshin.xml /home/il
 скоро..
 
 ## settings
-скоро..
+1. autocomplete без учета регистра:<br>
+file -> setting -> editor -> general -> code completion -> case sensitive completion -> none 
 
 ## контакты
 <a href="https://twitter.com/ildarkhasanshin" target="_blank">twitter</a>

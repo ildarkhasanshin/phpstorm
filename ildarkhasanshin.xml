@@ -47,4 +47,15 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="bitrix_page" value="&lt;?&#10;require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php';&#10;$APPLICATION-&gt;SetPageProperty('title', '');&#10;$APPLICATION-&gt;SetTitle('');&#10;?&gt;&#10;&#10;&lt;?&#10;require $_SERVER[&quot;DOCUMENT_ROOT&quot;] . '/bitrix/footer.php';&#10;?&gt;" description="bitrix: header+footer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="comp_" value="&lt;?$APPLICATION-&gt;IncludeComponent('bitrix:$END$', '', array(), false);?&gt;" description="$APPLICATION-&gt;IncludeComponent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
